@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    width: 96px;
+    height: 48px;
+    text-align: center;
+    border: 1px #c4c4c4 solid;
+    border-radius: 8px;
+    color: #c4c4c4;
+    background-color: transparent;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#btn:hover {
+    color: #ffffff;
+    background-color: #c4c4c4;
+}
+
+#btn:active {
+    border: 2px rgba(100, 100, 111, 0.2) solid;
+}
