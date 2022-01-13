@@ -1,5 +1,5 @@
-const $root = <HTMLInputElement>document.querySelector('#root');
-const $btn = <HTMLInputElement>document.querySelector('#btn');
+const $root = document.querySelector('#root') as HTMLDivElement;
+const $btn = document.querySelector('#btn') as HTMLButtonElement;
 
 const COLOR_LENGTH = 17;
 let index = 0;
