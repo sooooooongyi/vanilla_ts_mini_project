@@ -1,5 +1,5 @@
-const $root = document.querySelector('#root') as HTMLDivElement;
-const $btn = document.querySelector('#btn') as HTMLButtonElement;
+const $root1 = document.querySelector('#root') as HTMLDivElement;
+const $clickBtn1 = document.querySelector('#btn') as HTMLButtonElement;
 
 const COLOR_LENGTH = 17;
 let index = 0;
@@ -24,6 +24,6 @@ const colors = [
     'Magenta',
 ];
 
-$btn.addEventListener('click', () => {
-    $root.style.backgroundColor = colors[index++ % COLOR_LENGTH];
+$clickBtn1.addEventListener('click', () => {
+    $root1.style.backgroundColor = colors[index++ % COLOR_LENGTH];
 });

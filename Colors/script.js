@@ -1,6 +1,6 @@
 "use strict";
-const $root = document.querySelector('#root');
-const $btn = document.querySelector('#btn');
+const $root1 = document.querySelector('#root');
+const $clickBtn1 = document.querySelector('#btn');
 const COLOR_LENGTH = 17;
 let index = 0;
 const colors = [
@@ -22,6 +22,6 @@ const colors = [
     'HotPink',
     'Magenta',
 ];
-$btn.addEventListener('click', () => {
-    $root.style.backgroundColor = colors[index++ % COLOR_LENGTH];
+$clickBtn1.addEventListener('click', () => {
+    $root1.style.backgroundColor = colors[index++ % COLOR_LENGTH];
 });
